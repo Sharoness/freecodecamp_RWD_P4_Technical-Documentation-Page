@@ -1,0 +1,37 @@
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#navbar {
+  background-color: #f1f1f1;
+  height: 100%;
+  width: 310px;
+  position: fixed;
+  overflow: auto;
+}
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
+}
+li a {
+  display: block;
+  width: 200px;
+  color: #000;
+  text-decoration: none;
+  text-align: left;
+}
+li a:hover {
+  background-color: white;
+}
+.active {
+  background-color: #4caf50;
+  color: white;
+}
+code {
+  font-family: monospace;
+  background-color: lightgrey;
+}
+@media screen and (max-width: 600px) {
+  background-color: white;
+}
